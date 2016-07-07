@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h4>Admin Page ... !!</h4>
+	Welcome...!!
 </body>
 </html>

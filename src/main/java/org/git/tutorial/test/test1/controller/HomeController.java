@@ -24,10 +24,10 @@ public class HomeController {
 		return "adminpage";
 	}
 	
-	@RequestMapping(value = { "admin/increment.html" }, method = { RequestMethod.GET })
-	public String adminPage(HttpServletRequest req) {
+	@RequestMapping(value = { "admin/incrementpage.html" }, method = { RequestMethod.GET })
+	public String incrementPage(HttpServletRequest req) {
 		counter++;
-		return "adminpage";
+		return "pages/increment";
 	}
 
 }

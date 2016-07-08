@@ -32,7 +32,8 @@ public class HomeController {
 
 	@RequestMapping(value = { "admin/profilepage.html" }, method = { RequestMethod.GET })
 	public String profilePage(HttpServletRequest req) {
-		counter++;
+		// removed, no use 
+		//counter++;
 		return "admin/profliepage";
 	}
 

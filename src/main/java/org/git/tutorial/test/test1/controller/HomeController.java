@@ -37,4 +37,10 @@ public class HomeController {
 		return "pages/increment";
 	}
 
+	@RequestMapping(value = { "admin/profilepage.html" }, method = { RequestMethod.GET })
+	public String profilePage(HttpServletRequest req) {
+		counter++;
+		return "admin/profliepage";
+	}
+
 }

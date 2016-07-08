@@ -20,15 +20,9 @@ public class Logic {
 		}
 	}
 	
-	public static void main(String[] args) {
-		Logic logic = new Logic();
-		logic.logic1();
-		logic.logic2();
-		
-	}
 	
 	public void logic3(){
-		int limie = 10;
+		int limit = 10;
 		for(int a = 0; a > limit ; a--){
 			System.err.println();
 			for(int b = 0 ; b < limit ; b--){

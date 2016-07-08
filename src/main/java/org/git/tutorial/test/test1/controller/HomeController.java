@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 //fouth comment
 @Controller
 public class HomeController {
-
+	
+	private int counter = 0;
+	
 	@RequestMapping(value = { "/home/homepage.html" }, method = { RequestMethod.GET })
 	public String homePage(HttpServletRequest req) {
 		return "homepage";
@@ -18,6 +20,13 @@ public class HomeController {
 
 	@RequestMapping(value = { "admin/homepage.html" }, method = { RequestMethod.GET })
 	public String adminPage(HttpServletRequest req) {
+		// working fine..
+		return "adminpage";
+	}
+	
+	@RequestMapping(value = { "admin/increment.html" }, method = { RequestMethod.GET })
+	public String adminPage(HttpServletRequest req) {
+		counter++;
 		return "adminpage";
 	}
 

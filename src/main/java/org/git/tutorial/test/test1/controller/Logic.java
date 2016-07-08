@@ -15,9 +15,16 @@ public class Logic {
 		for(int a = 0; a < 10 ; a++){
 			System.err.println();
 			for(int b = 1 ; b <= a ; b++){
-				System.err.print(" * ");
+				System.err.print(" # ");
 			}
 		}
+	}
+	
+	public static void main(String[] args) {
+		Logic logic = new Logic();
+		logic.logic1();
+		logic.logic2();
+		
 	}
 
 }

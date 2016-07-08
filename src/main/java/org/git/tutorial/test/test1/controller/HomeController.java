@@ -10,13 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 //fouth comment
 @Controller
 public class HomeController {
-<<<<<<< HEAD
 
 	private Integer counter = 0;
-=======
-	
-	private int counter = 0;
->>>>>>> refs/remotes/origin/org.git.tutorial
 	
 	@RequestMapping(value = { "/home/homepage.html" }, method = { RequestMethod.GET })
 	public String homePage(HttpServletRequest req) {
@@ -29,16 +24,16 @@ public class HomeController {
 		return "adminpage";
 	}
 	
-<<<<<<< HEAD
 	@RequestMapping(value = { "admin/decremaentpage.html" }, method = { RequestMethod.GET })
 	public String decrementPage(HttpServletRequest req) {
 		counter--;
 		req.setAttribute("counter", counter);
-=======
+		return "pages/decrement";
+	}
+	
 	@RequestMapping(value = { "admin/incrementpage.html" }, method = { RequestMethod.GET })
 	public String incrementPage(HttpServletRequest req) {
 		counter++;
->>>>>>> refs/remotes/origin/org.git.tutorial
 		return "pages/increment";
 	}
 

@@ -11,14 +11,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 
+	private Integer counter = 0;
+	
 	@RequestMapping(value = { "/home/homepage.html" }, method = { RequestMethod.GET })
 	public String homePage(HttpServletRequest req) {
-		return "homepage";
+		return "home/homepage";
 	}
 
 	@RequestMapping(value = { "admin/homepage.html" }, method = { RequestMethod.GET })
 	public String adminPage(HttpServletRequest req) {
 		return "adminpage";
+	}
+	
+	@RequestMapping(value = { "admin/decremaentpage.html" }, method = { RequestMethod.GET })
+	public String decrementPage(HttpServletRequest req) {
+		counter--;
+		req.setAttribute("counter", counter);
+		return "pages/increment";
 	}
 
 }

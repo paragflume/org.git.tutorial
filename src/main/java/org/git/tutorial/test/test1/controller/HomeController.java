@@ -5,9 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-//second comment
-//third comment
-//fouth comment
+
 @Controller
 public class HomeController {
 
@@ -20,7 +18,6 @@ public class HomeController {
 
 	@RequestMapping(value = { "admin/homepage.html" }, method = { RequestMethod.GET })
 	public String adminPage(HttpServletRequest req) {
-		// working fine..
 		return "adminpage";
 	}
 	
@@ -39,7 +36,6 @@ public class HomeController {
 
 	@RequestMapping(value = { "admin/profilepage.html" }, method = { RequestMethod.GET })
 	public String profilePage(HttpServletRequest req) {
-		// no need
 		return "admin/profliepage";
 	}
 

@@ -26,5 +26,29 @@ public class Logic {
 		logic.logic2();
 		
 	}
+	
+	public void logic3(){
+		int limie = 10;
+		for(int a = 0; a > limit ; a--){
+			System.err.println();
+			for(int b = 0 ; b < limit ; b--){
+				if(b<a){
+					System.err.print("   ");
+				}else{
+					System.err.print(" * ");
+				}
+			}
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		Logic logic = new Logic();
+		logic.logic3();
+		logic.logic2();
+		logic.logic1();
+		
+		
+	}
 
 }

@@ -6,7 +6,7 @@ public class Logic {
 		for(int a = 10; a >0 ; a--){
 			System.err.println();
 			for(int b = 1 ; b < a ; b++){
-				System.err.print(" $ ");
+				System.err.print(" A ");
 			}
 		}
 	}

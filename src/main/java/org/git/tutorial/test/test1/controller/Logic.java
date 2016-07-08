@@ -26,9 +26,9 @@ public class Logic {
 			System.err.println();
 			for(int b = 1 ; b <= limit ; b++){
 				if(b<a){
-					System.err.print(" ###  ");
+					System.err.print("   ");
 				}else{
-					System.err.print(" *@@@ ");
+					System.err.print(" * ");
 				}
 			}
 		}

@@ -6,7 +6,7 @@ public class Logic {
 		for(int a = 10; a >0 ; a--){
 			System.err.println();
 			for(int b = 1 ; b < a ; b++){
-				System.err.print(" $ ");
+				System.err.print(" % ");
 			}
 		}
 	}
@@ -34,11 +34,26 @@ public class Logic {
 		}
 	}
 	
+	public void logic4(){
+		int limit = 10;
+		for(int a = 1; a <= limit ; a++){
+			System.err.println();
+			for(int b = 1 ; b <= limit ; b++){
+				if(b<=a){
+					System.err.print("   ");
+				}else{
+					System.err.print(" @ ");
+				}
+			}
+		}
+	}
+	
 	public static void main(String[] args) {
 		Logic logic = new Logic();
 		logic.logic2();
 		logic.logic1();
 		logic.logic3();
+		logic.logic4();
 	}
 
 }

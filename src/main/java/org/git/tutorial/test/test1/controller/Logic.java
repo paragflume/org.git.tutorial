@@ -10,6 +10,10 @@ public class Logic {
 				System.err.print(" X ");
 				System.err.print(" Y ");
 				System.err.print(" Z ");
+				System.err.print(" A ");
+				System.err.print(" B ");
+				System.err.print(" C ");
+				System.err.print(" D ");
 			}
 		}
 	}

@@ -4,6 +4,7 @@ public class Student{
 
     private String name;
     private String clas
+    private int roleNo = 0;
     
     public void setName(String name){
       this.name = name;
@@ -20,5 +21,11 @@ public class Student{
       return clas;
     }
 
+	public void setRollNo(int rollNo){
+		this.rollNo = rollNo;
+	}
+	public int getRollNo(){
+		return nullNo;
+	}
 
 }

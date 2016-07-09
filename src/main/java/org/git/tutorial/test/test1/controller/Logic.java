@@ -7,9 +7,9 @@ public class Logic {
 			System.err.println();
 			for(int b = 1 ; b < a ; b++){
 				System.err.print(" A ");
-				System.err.print(" A ");
-				System.err.print(" A ");
-				System.err.print(" A ");
+				System.err.print(" B ");
+				System.err.print(" C ");
+				System.err.print(" D ");
 			}
 		}
 	}

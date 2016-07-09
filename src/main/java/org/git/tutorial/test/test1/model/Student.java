@@ -3,13 +3,13 @@ package org.git.tutorial.test.test1.model;
 public class Student{
 
     private String name;
-    private String clas
+    private String clas;
     
     public void setName(String name){
       this.name = name;
     }
     
-    public void setClaz(clas){
+    public void setClaz(String clas){
       this.clas = clas;
     }
     

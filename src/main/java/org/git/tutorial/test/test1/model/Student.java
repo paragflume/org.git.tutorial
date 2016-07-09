@@ -10,7 +10,7 @@ public class Student{
       this.name = name;
     }
     
-    public void setClaz(clas){
+    public void setClaz(String clas){
       this.clas = clas;
     }
     

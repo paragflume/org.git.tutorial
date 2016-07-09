@@ -13,6 +13,12 @@ public class Logic {
 				System.err.print(" C ");
 				System.err.print(" Y ");
 				System.err.print(" D ");
+<<<<<<< HEAD
+=======
+				System.err.print(" W ");
+				System.err.print(" X ");
+				System.err.print(" Y ");
+>>>>>>> refs/remotes/origin/org.git.tutorial
 				System.err.print(" Z ");
 			}
 		}

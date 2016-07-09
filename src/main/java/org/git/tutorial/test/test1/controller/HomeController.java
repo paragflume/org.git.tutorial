@@ -26,7 +26,7 @@ public class HomeController {
 	}
 
 	public int  subtruct(int a, int b){
-		return 0;
+		return a-b;
 	}
 
 	public int multiply(int a, int b){

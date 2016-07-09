@@ -22,10 +22,10 @@ public class Student{
     }
 
 	public void setRollNo(int rollNo){
-		this.rollNo = rollNo;
+		this.roleNo = rollNo;
 	}
 	public int getRollNo(){
-		return nullNo;
+		return roleNo;
 	}
 
 }

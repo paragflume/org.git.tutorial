@@ -21,4 +21,20 @@ public class HomeController {
 		return "adminpage";
 	}
 
+	public int add(int a,int b){
+		return 0;
+	}
+
+	public int  subtruct(int a, int b){
+		return 0;
+	}
+
+	public int multiply(int a, int b){
+		return 0;
+	}
+
+	public int divide(int a, int b){
+		return 0;
+	}
+
 }

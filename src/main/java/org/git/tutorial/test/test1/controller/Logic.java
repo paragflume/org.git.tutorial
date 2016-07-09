@@ -6,14 +6,14 @@ public class Logic {
 		for(int a = 10; a >0 ; a--){
 			System.err.println();
 			for(int b = 1 ; b < a ; b++){
-				System.err.print(" W ");
-				System.err.print(" X ");
-				System.err.print(" Y ");
-				System.err.print(" Z ");
 				System.err.print(" A ");
+				System.err.print(" W ");
 				System.err.print(" B ");
+				System.err.print(" X ");
 				System.err.print(" C ");
+				System.err.print(" Y ");
 				System.err.print(" D ");
+				System.err.print(" Z ");
 			}
 		}
 	}

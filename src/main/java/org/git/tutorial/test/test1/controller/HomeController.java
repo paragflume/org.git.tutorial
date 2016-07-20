@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 //second comment
 //third comment
 //fouth comment
-// change tag 1
-// change tag 2
+// change tag 3
 @Controller
 public class HomeController {
 
